@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		439AEAB014169B4500848408 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439AEAAF14169B4500848408 /* Cocoa.framework */; };
+		439AEABA14169B4500848408 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 439AEAB814169B4500848408 /* InfoPlist.strings */; };
+		439AEABC14169B4500848408 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 439AEABB14169B4500848408 /* main.m */; };
+		439AEAC014169B4500848408 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 439AEABE14169B4500848408 /* Credits.rtf */; };
+		439AEAC314169B4500848408 /* NyantopAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 439AEAC214169B4500848408 /* NyantopAppDelegate.m */; };
+		439AEAC614169B4500848408 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 439AEAC414169B4500848408 /* MainMenu.xib */; };
+		439AEACE14169F4F00848408 /* NyanWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 439AEACD14169F4F00848408 /* NyanWindow.m */; };
+		439AEAD11416A24C00848408 /* NyanView.m in Sources */ = {isa = PBXBuildFile; fileRef = 439AEAD01416A24C00848408 /* NyanView.m */; };
+		439AEAD31416A5C000848408 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 439AEAD21416A5C000848408 /* Quartz.framework */; };
+		439AEAE01416A5FC00848408 /* nyan-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEAD41416A5FC00848408 /* nyan-1.png */; };
+		439AEAE11416A5FC00848408 /* nyan-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEAD51416A5FC00848408 /* nyan-2.png */; };
+		439AEAE21416A5FC00848408 /* nyan-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEAD61416A5FC00848408 /* nyan-3.png */; };
+		439AEAE31416A5FC00848408 /* nyan-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEAD71416A5FC00848408 /* nyan-4.png */; };
+		439AEAE41416A5FC00848408 /* nyan-5.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEAD81416A5FC00848408 /* nyan-5.png */; };
+		439AEAE51416A5FC00848408 /* nyan-6.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEAD91416A5FC00848408 /* nyan-6.png */; };
+		439AEAE61416A5FC00848408 /* nyan-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEADA1416A5FC00848408 /* nyan-7.png */; };
+		439AEAE71416A5FC00848408 /* nyan-8.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEADB1416A5FC00848408 /* nyan-8.png */; };
+		439AEAE81416A5FC00848408 /* nyan-9.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEADC1416A5FC00848408 /* nyan-9.png */; };
+		439AEAE91416A5FC00848408 /* nyan-10.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEADD1416A5FC00848408 /* nyan-10.png */; };
+		439AEAEA1416A5FC00848408 /* nyan-11.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEADE1416A5FC00848408 /* nyan-11.png */; };
+		439AEAEB1416A5FC00848408 /* nyan-12.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEADF1416A5FC00848408 /* nyan-12.png */; };
+		439AEAED1416ABC100848408 /* rainbow.png in Resources */ = {isa = PBXBuildFile; fileRef = 439AEAEC1416ABC100848408 /* rainbow.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		439AEAAB14169B4500848408 /* Nyantop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nyantop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		439AEAAF14169B4500848408 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		439AEAB214169B4500848408 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		439AEAB314169B4500848408 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		439AEAB414169B4500848408 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		439AEAB714169B4500848408 /* Nyantop-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Nyantop-Info.plist"; sourceTree = "<group>"; };
+		439AEAB914169B4500848408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		439AEABB14169B4500848408 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		439AEABD14169B4500848408 /* Nyantop-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Nyantop-Prefix.pch"; sourceTree = "<group>"; };
+		439AEABF14169B4500848408 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		439AEAC114169B4500848408 /* NyantopAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NyantopAppDelegate.h; sourceTree = "<group>"; };
+		439AEAC214169B4500848408 /* NyantopAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NyantopAppDelegate.m; sourceTree = "<group>"; };
+		439AEAC514169B4500848408 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		439AEACC14169F4F00848408 /* NyanWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NyanWindow.h; sourceTree = "<group>"; };
+		439AEACD14169F4F00848408 /* NyanWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NyanWindow.m; sourceTree = "<group>"; };
+		439AEACF1416A24C00848408 /* NyanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NyanView.h; sourceTree = "<group>"; };
+		439AEAD01416A24C00848408 /* NyanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NyanView.m; sourceTree = "<group>"; };
+		439AEAD21416A5C000848408 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		439AEAD41416A5FC00848408 /* nyan-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-1.png"; path = "Resources/nyan-1.png"; sourceTree = SOURCE_ROOT; };
+		439AEAD51416A5FC00848408 /* nyan-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-2.png"; path = "Resources/nyan-2.png"; sourceTree = SOURCE_ROOT; };
+		439AEAD61416A5FC00848408 /* nyan-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-3.png"; path = "Resources/nyan-3.png"; sourceTree = SOURCE_ROOT; };
+		439AEAD71416A5FC00848408 /* nyan-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-4.png"; path = "Resources/nyan-4.png"; sourceTree = SOURCE_ROOT; };
+		439AEAD81416A5FC00848408 /* nyan-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-5.png"; path = "Resources/nyan-5.png"; sourceTree = SOURCE_ROOT; };
+		439AEAD91416A5FC00848408 /* nyan-6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-6.png"; path = "Resources/nyan-6.png"; sourceTree = SOURCE_ROOT; };
+		439AEADA1416A5FC00848408 /* nyan-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-7.png"; path = "Resources/nyan-7.png"; sourceTree = SOURCE_ROOT; };
+		439AEADB1416A5FC00848408 /* nyan-8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-8.png"; path = "Resources/nyan-8.png"; sourceTree = SOURCE_ROOT; };
+		439AEADC1416A5FC00848408 /* nyan-9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-9.png"; path = "Resources/nyan-9.png"; sourceTree = SOURCE_ROOT; };
+		439AEADD1416A5FC00848408 /* nyan-10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-10.png"; path = "Resources/nyan-10.png"; sourceTree = SOURCE_ROOT; };
+		439AEADE1416A5FC00848408 /* nyan-11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-11.png"; path = "Resources/nyan-11.png"; sourceTree = SOURCE_ROOT; };
+		439AEADF1416A5FC00848408 /* nyan-12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "nyan-12.png"; path = "Resources/nyan-12.png"; sourceTree = SOURCE_ROOT; };
+		439AEAEC1416ABC100848408 /* rainbow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rainbow.png; path = Resources/rainbow.png; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		439AEAA814169B4500848408 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439AEAD31416A5C000848408 /* Quartz.framework in Frameworks */,
+				439AEAB014169B4500848408 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		439AEAA014169B4500848408 = {
+			isa = PBXGroup;
+			children = (
+				439AEAB514169B4500848408 /* Nyantop */,
+				439AEAAE14169B4500848408 /* Frameworks */,
+				439AEAAC14169B4500848408 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		439AEAAC14169B4500848408 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				439AEAAB14169B4500848408 /* Nyantop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		439AEAAE14169B4500848408 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439AEAD21416A5C000848408 /* Quartz.framework */,
+				439AEAAF14169B4500848408 /* Cocoa.framework */,
+				439AEAB114169B4500848408 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		439AEAB114169B4500848408 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				439AEAB214169B4500848408 /* AppKit.framework */,
+				439AEAB314169B4500848408 /* CoreData.framework */,
+				439AEAB414169B4500848408 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		439AEAB514169B4500848408 /* Nyantop */ = {
+			isa = PBXGroup;
+			children = (
+				439AEACF1416A24C00848408 /* NyanView.h */,
+				439AEAD01416A24C00848408 /* NyanView.m */,
+				439AEACC14169F4F00848408 /* NyanWindow.h */,
+				439AEACD14169F4F00848408 /* NyanWindow.m */,
+				439AEAC114169B4500848408 /* NyantopAppDelegate.h */,
+				439AEAC214169B4500848408 /* NyantopAppDelegate.m */,
+				439AEAC414169B4500848408 /* MainMenu.xib */,
+				439AEAB614169B4500848408 /* Supporting Files */,
+			);
+			path = Nyantop;
+			sourceTree = "<group>";
+		};
+		439AEAB614169B4500848408 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				439AEAD41416A5FC00848408 /* nyan-1.png */,
+				439AEAD51416A5FC00848408 /* nyan-2.png */,
+				439AEAD61416A5FC00848408 /* nyan-3.png */,
+				439AEAD71416A5FC00848408 /* nyan-4.png */,
+				439AEAD81416A5FC00848408 /* nyan-5.png */,
+				439AEAD91416A5FC00848408 /* nyan-6.png */,
+				439AEADA1416A5FC00848408 /* nyan-7.png */,
+				439AEADB1416A5FC00848408 /* nyan-8.png */,
+				439AEADC1416A5FC00848408 /* nyan-9.png */,
+				439AEADD1416A5FC00848408 /* nyan-10.png */,
+				439AEADE1416A5FC00848408 /* nyan-11.png */,
+				439AEADF1416A5FC00848408 /* nyan-12.png */,
+				439AEAEC1416ABC100848408 /* rainbow.png */,
+				439AEAB714169B4500848408 /* Nyantop-Info.plist */,
+				439AEAB814169B4500848408 /* InfoPlist.strings */,
+				439AEABB14169B4500848408 /* main.m */,
+				439AEABD14169B4500848408 /* Nyantop-Prefix.pch */,
+				439AEABE14169B4500848408 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		439AEAAA14169B4500848408 /* Nyantop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 439AEAC914169B4500848408 /* Build configuration list for PBXNativeTarget "Nyantop" */;
+			buildPhases = (
+				439AEAA714169B4500848408 /* Sources */,
+				439AEAA814169B4500848408 /* Frameworks */,
+				439AEAA914169B4500848408 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nyantop;
+			productName = Nyantop;
+			productReference = 439AEAAB14169B4500848408 /* Nyantop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		439AEAA214169B4500848408 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Nate Stedman";
+			};
+			buildConfigurationList = 439AEAA514169B4500848408 /* Build configuration list for PBXProject "Nyantop" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 439AEAA014169B4500848408;
+			productRefGroup = 439AEAAC14169B4500848408 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				439AEAAA14169B4500848408 /* Nyantop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		439AEAA914169B4500848408 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439AEABA14169B4500848408 /* InfoPlist.strings in Resources */,
+				439AEAC014169B4500848408 /* Credits.rtf in Resources */,
+				439AEAC614169B4500848408 /* MainMenu.xib in Resources */,
+				439AEAE01416A5FC00848408 /* nyan-1.png in Resources */,
+				439AEAE11416A5FC00848408 /* nyan-2.png in Resources */,
+				439AEAE21416A5FC00848408 /* nyan-3.png in Resources */,
+				439AEAE31416A5FC00848408 /* nyan-4.png in Resources */,
+				439AEAE41416A5FC00848408 /* nyan-5.png in Resources */,
+				439AEAE51416A5FC00848408 /* nyan-6.png in Resources */,
+				439AEAE61416A5FC00848408 /* nyan-7.png in Resources */,
+				439AEAE71416A5FC00848408 /* nyan-8.png in Resources */,
+				439AEAE81416A5FC00848408 /* nyan-9.png in Resources */,
+				439AEAE91416A5FC00848408 /* nyan-10.png in Resources */,
+				439AEAEA1416A5FC00848408 /* nyan-11.png in Resources */,
+				439AEAEB1416A5FC00848408 /* nyan-12.png in Resources */,
+				439AEAED1416ABC100848408 /* rainbow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		439AEAA714169B4500848408 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439AEABC14169B4500848408 /* main.m in Sources */,
+				439AEAC314169B4500848408 /* NyantopAppDelegate.m in Sources */,
+				439AEACE14169F4F00848408 /* NyanWindow.m in Sources */,
+				439AEAD11416A24C00848408 /* NyanView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		439AEAB814169B4500848408 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439AEAB914169B4500848408 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		439AEABE14169B4500848408 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439AEABF14169B4500848408 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		439AEAC414169B4500848408 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				439AEAC514169B4500848408 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		439AEAC714169B4500848408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		439AEAC814169B4500848408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		439AEACA14169B4500848408 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nyantop/Nyantop-Prefix.pch";
+				INFOPLIST_FILE = "Nyantop/Nyantop-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		439AEACB14169B4500848408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Nyantop/Nyantop-Prefix.pch";
+				INFOPLIST_FILE = "Nyantop/Nyantop-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		439AEAA514169B4500848408 /* Build configuration list for PBXProject "Nyantop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439AEAC714169B4500848408 /* Debug */,
+				439AEAC814169B4500848408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		439AEAC914169B4500848408 /* Build configuration list for PBXNativeTarget "Nyantop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				439AEACA14169B4500848408 /* Debug */,
+				439AEACB14169B4500848408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 439AEAA214169B4500848408 /* Project object */;
+}
